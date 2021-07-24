@@ -1,0 +1,99 @@
+html {
+   background-color: hsl(233, 47%, 7%); 
+   font-size: 15px;
+   font-family: inter;
+}
+
+.card {
+   margin-top: 3cm;
+   border-radius: 10px;
+   width: 80%;
+   height: max-content;
+   margin-left: auto;
+   margin-right: auto;
+   color: white;
+   overflow: hidden;
+   background-color: hsl(244, 38%, 16%);
+}
+
+.content {
+   float: left;
+   width: 45%;
+   padding: 5%;
+   overflow-wrap: break-word;
+}
+
+.content h1 {
+   font-weight: 700;
+   font-family: inter;
+}
+
+.content p {
+   font-family: inter;
+}
+
+.imp {
+   color: hsl(277, 64%, 61%);
+}
+
+.stats1 {
+   display: inline-block;
+   width: 30%;
+   float: left;
+   font-size: 22px;
+   font-weight: 900;
+}
+
+.stats2 {
+   margin: 0 auto 0 auto;
+   display: inline-block;
+   width: 30%;
+   float: center;
+   text-align: center;
+   font-size: 22px;
+   font-weight: 900;
+}
+
+.stats3 {
+   display: inline-block;
+   width: 30%;
+   float: right;
+   font-size: 22px;
+   font-weight: 900;
+}
+
+.stats1 p {
+   font-size: 15px;
+   font-weight: 200;
+} 
+
+.stats2 p {
+   font-size: 15px;
+   text-align: right;
+   font-weight: 200;
+} 
+
+.stats3 p {
+   font-size: 15px;
+   font-weight: 200;
+} 
+
+.image {
+   color: rgba(255, 0, 0, 0);
+   background-image: url("images/image-header-mobile.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 45%;
+   float: right;
+   background-image: url("images/image-header-mobile.jpg");
+   display:grid;
+   height: 11cm;
+   z-index: -1;
+}
+
+
+
+.cover-image {
+   width: 45%;
+   height: 100%;
+}
